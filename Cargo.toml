@@ -1,0 +1,8 @@
+[package]
+name = "hyper-util-retry-repo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper-util = { version = "0.1.8", features = ["client-legacy", "http1", "tokio"] }
+tokio = { version = "1.40.0", features = ["full"] }
